@@ -6,4 +6,3 @@ RUN set -xv; \
 WORKDIR /.openvpn
 
 ENTRYPOINT [ "/usr/sbin/openvpn" ]
-CMD [ "--config", "client.ovpn", "--auth-nocache" ]
